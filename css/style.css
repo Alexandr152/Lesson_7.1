@@ -1,0 +1,137 @@
+/* &display=swap */
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+@font-face {
+	font-family: "Bitter";
+	src: url("../fonts/Bitter-Regular.woff2") format("woff2"), url("../fonts/Bitter-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: url("../img/Tehniskie.png") 0 0 / cover no-repeat fixed;
+	color: brown;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	box-shadow: inset 5px 5px 15px 0px #000;
+	border: 1px solid #000;
+}
+
+.header {
+	background: url("../img/bitcoin_cryptocurrency_coin_money_icon_210978.png") 0 0 repeat-x,
+		linear-gradient(
+			90deg,
+			rgba(232, 240, 249, 1) 0%,
+			rgba(209, 217, 250, 0.38139005602240894) 50%,
+			rgba(252, 176, 69, 0.1) 100%
+		),
+		url("../img/48070.jpg") 0 0 / cover no-repeat;
+}
+
+h1 {
+	text-align: center;
+	line-height: 2;
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 35px;
+	padding: 15px 25px;
+}
+
+.header-text {
+	text-align: center;
+	line-height: 2;
+	font-size: 25px;
+	padding: 15px 25px;
+	margin-bottom: 35px;
+}
+
+.content {
+	max-width: 850px;
+	margin: 0 auto;
+	background: rgba(231, 227, 214, 0.7) url("../img/004.png") 0 0 / cover no-repeat fixed;
+	color: black;
+}
+
+div.content > p {
+	letter-spacing: 5px;
+}
+
+h2 {
+	font-size: 35px;
+	margin-bottom: 35px;
+	line-height: 1.5;
+	padding: 10px;
+	font-weight: 700;
+	text-shadow: 2px 2px 1px rgb(118, 134, 60);
+}
+
+.content-text {
+	padding: 10px;
+	margin-bottom: 35px;
+	text-indent: 20px;
+}
+
+.contain-info {
+	background-color: #94c9e5;
+	border: 2px solid #000;
+	margin-bottom: 25px;
+}
+
+.contain-info.next {
+	background-color: rgba(69, 131, 8, 0.486);
+}
+
+.section {
+	background-color: #fff;
+	margin: 25px;
+	padding: 10px;
+}
+
+.list li {
+	margin: 0 0 5px 25px;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+}
+
+.list-item {
+	background: url("../img/tickcircleregular_106336.svg") 0 0 / 20px no-repeat;
+	padding: 0 0 0 30px;
+	min-height: 20px;
+}
+
+h3 {
+	font-size: 25px;
+	margin-bottom: 25px;
+	text-decoration: underline;
+	padding: 10px;
+}
+
+span {
+	font-weight: 700;
+	color: red;
+}
+.text p {
+	margin-bottom: 10px;
+	padding: 10px;
+	text-indent: 25px;
+	font-family: "Bitter", sans-serif;
+}
+
+.footer {
+	font-size: 25px;
+	text-align: center;
+	font-weight: 700;
+	color: blue;
+	margin-bottom: 35px;
+}
